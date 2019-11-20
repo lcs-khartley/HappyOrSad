@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBT-Lc-dWo">
-                                        <rect key="frame" x="87" y="138" width="240" height="138"/>
+                                        <rect key="frame" x="87" y="136" width="240" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="115"/>
                                         <color key="textColor" red="0.3759249746799469" green="0.82608383893966675" blue="0.91165190935134888" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

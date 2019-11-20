@@ -21,10 +21,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
+    //Analyze the text
     @IBAction func calculateHappiness(_ sender: Any) {
+        
+        //Guard against no input
+        guard let emojiPhrase = emojiText.text, emojiPhrase.count > 0 else {
+            labelOutput.text = "Input a message."
+            return
+        }
+          
+        //Guard against long input
+        if emojiPhrase.count > 255 {
+            labelOutput.text = "Please enter a message with no more than 255 characters."
+            return
+        }
+       
+        
+        }
+        
+        
     }
-    
-
-}
-
